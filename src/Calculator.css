@@ -1,4 +1,4 @@
-/* Dark gradient background */
+
 body {
   margin: 0;
   height: 100vh;
@@ -6,7 +6,7 @@ body {
   font-family: "Times New Roman", serif;
 }
 
-/* Center wrapper */
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 
-/* Calculator card */
+
 .calculator {
   background-color: #e5e5e5;
   padding: 35px 40px 40px 40px;
@@ -23,13 +23,13 @@ body {
   border-radius: 4px;
 }
 
-/* Title */
+
 .calculator h1 {
   font-size: 32px;
   margin-bottom: 25px;
 }
 
-/* Input bar */
+
 .calculator input {
   width: 70%;
   height: 28px;
@@ -41,7 +41,7 @@ body {
   padding: 4px;
 }
 
-/* Result */
+
 .result {
   height: 24px;
   margin-bottom: 20px;
@@ -49,7 +49,7 @@ body {
   font-weight: normal;
 }
 
-/* Button grid */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -57,7 +57,7 @@ body {
   justify-items: center;
 }
 
-/* Buttons */
+
 .grid button {
   width: 60px;
   height: 60px;
@@ -68,7 +68,7 @@ body {
   cursor: pointer;
 }
 
-/* Button press effect */
+
 .grid button:active {
   transform: scale(0.96);
 }
