@@ -1,0 +1,74 @@
+/* Dark gradient background */
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #2b3340, #1f2631);
+  font-family: "Times New Roman", serif;
+}
+
+/* Center wrapper */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Calculator card */
+.calculator {
+  background-color: #e5e5e5;
+  padding: 35px 40px 40px 40px;
+  width: 340px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Title */
+.calculator h1 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+/* Input bar */
+.calculator input {
+  width: 70%;
+  height: 28px;
+  margin-bottom: 18px;
+  text-align: right;
+  border: 1px solid #888;
+  background: #f2f2f2;
+  font-size: 16px;
+  padding: 4px;
+}
+
+/* Result */
+.result {
+  height: 24px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* Button grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  justify-items: center;
+}
+
+/* Buttons */
+.grid button {
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: 2px solid #444;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+/* Button press effect */
+.grid button:active {
+  transform: scale(0.96);
+}
